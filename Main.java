@@ -159,12 +159,5 @@ public class Main {
         int streak5 = ArrayAlgorithms.longestStreak(nums17);
         System.out.println(streak5);
     
-        String[] strings9 = {"HELlo", "Halo", "WHAT!", "Adam", "what", "booyAH", "WHY?", "for"};
-        ArrayAlgorithms.makeUppercase(strings9);
-        for (String str : strings9) {
-            System.out.print(str + " ");
-        }
-        System.out.println();
-    
     }
 }
